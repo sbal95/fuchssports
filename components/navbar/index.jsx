@@ -10,7 +10,7 @@ const Navbar = () => {
             class="flex items-center pl-5 hover:scale-110 duration-700"
           >
             <img
-              src="/images/LoginLogo.svg"
+              src="/images/LogInLogo.svg"
               class="h-12 mr-3 lg:h-20 w-96"
               alt="Flowbite Logo"
             />
