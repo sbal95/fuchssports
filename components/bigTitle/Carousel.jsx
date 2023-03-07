@@ -41,12 +41,17 @@ export const Carousel = () => {
     ],
   };
   return (
-    <div className="h-screen w-full">
+    <div className="h-screen w-full relative">
+      <Image
+        src="/images/Main.PNG"
+        layout="fill"
+        objectFit="cover"
+        className="z-0 min-h-screen absolute "
+      />
       <Slider {...settings}>
-        <div className=" min-h-screen w-full">
-          <Image src="/images/Main.PNG" layout="fill" className="z-0" />
-          <div className=" text-gray-300 w-full h-full container mx-auto items-start gap-y-20 ml-[10%] font-roboto absolute">
-            <p className="xl:text-5xl  text-2xl font-roboto w-full flex flex-col lg:mt-[40%] mt-64 gap-y-8">
+        <div className="min-h-screen w-full z-50  relative">
+          <div className=" text-gray-300 w-full h-full container mx-auto items-start gap-y-20 px-[3%] absolute font-roboto top-[75%]">
+            <p className="xl:text-5xl  xs:text-3xl text-2xl font-roboto w-full h-full flex flex-col absolute gap-y-8">
               <span>
                 TFF 2.lig ve TFF 3.lig Heyecanı Sadece Fuchs Sports'ta!
                 <br />
