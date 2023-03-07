@@ -43,7 +43,7 @@ export const Carousel = () => {
   return (
     <div className="h-screen w-full relative">
       <Image
-        src="/images/Main.PNG"
+        src="https://app.fuchssports.com.tr/Scripts/bundle/LoginBg.png?6081449f3a04b7e6e94757e781b13711"
         layout="fill"
         objectFit="cover"
         className="z-0 min-h-screen absolute "
