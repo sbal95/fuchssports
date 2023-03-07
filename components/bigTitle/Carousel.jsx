@@ -41,7 +41,7 @@ export const Carousel = () => {
     ],
   };
   return (
-    <div className="h-screen w-full relative">
+    <div className="h-screen w-full relative block">
       <Image
         src="/images/LoginBg.png"
         layout="fill"
