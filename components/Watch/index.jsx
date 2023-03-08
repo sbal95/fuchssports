@@ -1,16 +1,16 @@
 import React from "react";
-import Image from "next/image";
 
 const Watch = () => {
   return (
-    <div className="w-full h-full flex flex-col gap-y-12  py-24 relative">
-      <div className="relative container mx-auto w-[45%] h-[45%] pt-44">
-        <Image src="/images/devices.svg" layout="fill" />
+    <div className="w-full flex flex-col gap-y-12 text-neutral-200 py-44">
+      <div className="container mx-auto flex text-9xl justify-center items-center gap-x-5">
+        <i className="bi bi-google-play"></i>
+        <i className="bi bi-apple"></i>
+        <i className="bi bi-laptop"></i>
       </div>
-      <div className="xl:text-5xl text-2xl font-roboto container mx-auto xl:px-64 px-20 text-center text-neutral-200 w-full">
-        Hemen üye ol, cepte, tablette, bilgisayarda, istediğin zaman, istediğin
-        yerde Fuchs Sports İçeriklerini, Google Play, AppGallery, App Store,
-        Apple TV ve Android TV'den izlemeye başla.
+      <div className="xl:text-5xl text-2xl font-roboto relative container mx-auto xl:px-64 px-20 text-center w-full">
+        Hemen üye ol, Web Tarayıcı, Ios ve Android mobil cihazlarda izlemeye
+        başla.
       </div>
     </div>
   );

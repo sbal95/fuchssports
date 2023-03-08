@@ -52,7 +52,7 @@ const Footer = () => {
   };
 
   return (
-    <footer class="p-4 gap-y-20 flex-col md:flex-row flex rounded-lg shadow md:flex md:items-center md:justify-around md:p-6 md:py-12 bg-zinc-900 border-t-[1px] border-gray-300">
+    <footer class="p-4 gap-y-20 flex-col md:flex-row flex rounded-lg shadow md:flex md:items-center md:justify-around md:p-6 md:py-12 bg-zinc-900">
       <span class="text-sm text-gray-500 sm:text-center flex sm:flex-row flex-col sm:justify-items-end justify-items-center gap-x-5">
         <a
           href="https://app.fuchssports.com.tr/login"

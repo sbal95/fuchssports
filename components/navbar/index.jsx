@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav class="bg-zinc-900 bg-opacity-90 px-2 sm:px-4 py-10  fixed w-full z-10 top-0 left-0 border-b-[1px] border-gray-300 rounded-b-lg">
+      <nav class="bg-zinc-900 bg-opacity-90 px-2 sm:px-4 py-10  fixed w-full z-10 top-0 left-0 rounded-b-lg">
         <div class="flex sm:flex-row flex-col items-center sm:justify-between justify-center gap-y-5 lg:gap-y-0 mx-auto">
           <a
             href="https://app.fuchssports.com.tr/login"
